@@ -1,0 +1,21 @@
+:root {
+    background-color: #0783DC;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    color: #0029BB;
+}
+
+p {
+    color: black;
+}
+
+.hero img {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
