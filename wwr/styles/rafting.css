@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #001F69;
+    --primary-color: white;
     --secondary-color: #0029BB;
     --accent1-color: #15AEA1;
     ---accent2-color: #0783DC;
@@ -17,6 +17,10 @@ main,
 footer {
     max-width: 1200px;
     margin: 0 auto;
+    display: grid;
+    grid-column-start: 3;
+    justify-content: space-around; 
+    align-items: flex-start;
 }
 
 a {
@@ -77,4 +81,10 @@ footer {
 
 .sociallinks {
     background-color: unset;
+}
+
+nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
 }
