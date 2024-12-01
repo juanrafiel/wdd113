@@ -1,21 +1,80 @@
 :root {
-    background-color: #0783DC;
+    --primary-color: #001F69;
+    --secondary-color: #0029BB;
+    --accent1-color: #15AEA1;
+    ---accent2-color: #0783DC;
+
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--accent1-colro);
+}
+
+header,
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 a {
     text-decoration: none;
 }
 
-nav {
-    color: #0029BB;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
 }
 
-p {
-    color: black;
+.hero {
+    position: relative
 }
 
 .hero img {
     display: block;
-    width: 50%;
+    width: 100%;
     height: auto;
-  }
+}
+
+.hero h1 {
+    position: absolute;
+    top: 2em;
+    background-color: #fefefe78;
+    text-align: center;
+    padding: 10px;
+}
+
+.hero h1 p {
+    padding: 10px;
+}
+
+.hero article {
+    position: absolute;
+    top: 15em;
+    left: 2em;
+    right: 2em;
+    background-color: #fefefe78;
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+}
+
+
+footer {
+    background-color: #3e3e3e;
+    padding: 1em;
+    color: #fefefe;
+    margin-top: 10rem;
+}
+
+.sociallinks {
+    background-color: unset;
+}
