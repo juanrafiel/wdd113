@@ -88,3 +88,9 @@ nav {
     align-content: center;
     justify-content: space-around;
 }
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start
+}
